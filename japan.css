@@ -1,0 +1,18 @@
+.container {
+    height:200px;
+    width:300px;
+    background-color:white;
+    border:1px solid black
+}
+
+.container:after {
+    display:block;
+    content:"";
+    position:relative;
+    top:25%;
+    left:33%;
+    height:100px;
+    width:100px;
+    background-color:red;
+    border-radius:100%;
+}
